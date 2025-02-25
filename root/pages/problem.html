@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probléma</title>
+</head>
+<body>
+    <div>
+        <a href="../index.html">Főoldal</a>
+        <a href="./services.html">Szolgáltatások </a>
+        <a href="./subjects.html">Tárgyak </a>
+        <a href="./students.html">Hallgatók </a>
+        <a href="./merch.html">Merch-shop</a>
+        <a href="./contact.html">Kapcsolat </a>
+        <a href="./problem.html">Probléma bejelentés</a>
+    </div>
+
+    <div>
+        <form action="">
+            <label for="emailAddres">Email cím</label>
+            <input type="email" id="emailAddres" name="emailAddres">
+
+            <p>Kérek értesítést:</p>
+            <input type="radio" name="notification" id="yes" value="Igen">
+            <label for="yes">Igen</label>
+            <input type="radio" name="notification" id="no" value="Nem">
+            <label for="no">Nem</label>
+
+            <p>Bejelentés típusa</p>
+            <select name="reportType" id="reportType">
+                <option value="altalanos">általános bejelentés</option>
+                <option value="pozitív">pozitív véleményt kívánok tenni</option>
+                <option value="panaszt">panaszt kívánok tenni</option>
+            </select>
+
+            <label for="subject">Tárgy</label>
+            <input type="text" id="subject" name="subject">
+            
+            <label for="text">Szöveg</label>
+            <textarea name="text" id="text"></textarea>
+
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
