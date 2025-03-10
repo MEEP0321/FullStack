@@ -1,0 +1,15 @@
+@media screen and (min-width: 800px) {
+    .alert_box_wrapper{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .table_wrapper{
+        display: none;
+    }
+}
+
+.form_wrapper div{
+    margin: 10px;
+}

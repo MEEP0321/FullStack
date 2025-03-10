@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <link rel="stylesheet" href="../styles/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body>
     <div>
         <a href="../index.html">Főoldal</a>
@@ -19,36 +22,51 @@
         <a href="./problem.html">Probléma bejelentés</a>
     </div>
 
-    <div>
+    <div class="form_wrapper">
         <form action="">
-            <label for="name">Név</label>
-            <input type="text" id="name" name="name">
+            <div class="form-floating">
+                <input type="text" id="name" name="name" class="form-control" placeholder="Név">
+                <label for="name">Név</label>
+            </div>
 
-            <label for="emailAddres">Email cím</label>
-            <input type="email" id="emailAddres" name="emailAddres">
+            <div class="form-floating">
+                <input type="email" id="emailAddres" name="emailAddres" class="form-control" placeholder="Email cím">
+                <label for="emailAddres">Email cím</label>
+            </div>
+            <div>
+                <input type="radio" name="person" id="hallgato" value="hallgató">
+                <label for="hallgato">Hallgató</label>
+                <input type="radio" name="person" id="oktato" value="Oktató">
+                <label for="oktato">Oktató</label>
+                <input type="radio" name="person" id="kulsos" value="Kölsős személy">
+                <label for="kulsos">Hallgató</label>
+            </div>
 
-            <input type="radio" name="person" id="hallgato" value="hallgató">
-            <label for="hallgato">Hallgató</label>
-            <input type="radio" name="person" id="oktato" value="Oktató">
-            <label for="oktato">Oktató</label>
-            <input type="radio" name="person" id="kulsos" value="Kölsős személy">
-            <label for="kulsos">Hallgató</label>
+            <div class="form-floating">
+                <input type="text" id="subject" name="subject" class="form-control" placeholder="Tárgy">
+                <label for="subject">Tárgy</label>
+            </div>
 
-            <label for="subject">Tárgy</label>
-            <input type="text" id="subject" name="subject">
-            
-            <label for="text">Szöveg</label>
-            <textarea name="text" id="text"></textarea>
+            <div class="form-floating">
+                <textarea name="text" id="text" class="form-control" placeholder="Szöveg"></textarea>
+                <label for="text">Szöveg</label>
+            </div>
 
             <input type="submit">
         </form>
     </div>
 
     <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12814.418005897422!2d19.022513459686955!3d47.530818782316835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741d95af5205aed%3A0x53008033a7aa5533!2s%C3%93budai%20Egyetem%20BA%20Building%2C%20Neumann%20J%C3%A1nos%20Informatikai%20Kar!5e0!3m2!1shu!2shu!4v1740483899484!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12814.418005897422!2d19.022513459686955!3d47.530818782316835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741d95af5205aed%3A0x53008033a7aa5533!2s%C3%93budai%20Egyetem%20BA%20Building%2C%20Neumann%20J%C3%A1nos%20Informatikai%20Kar!5e0!3m2!1shu!2shu!4v1740483899484!5m2!1shu!2shu"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
