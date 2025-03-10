@@ -1,0 +1,27 @@
+.merch_item button {
+    background-color: lightgreen;
+    border-radius: 5px;
+    border-color: green;
+    
+} 
+
+.merch_item button:hover {
+    background-color: rgb(101, 241, 101)
+}
+
+.merch_item input{
+    width: 50px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.merch_item img{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.merch_item img:hover{
+    filter: grayscale(100%);
+}
